@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url(pexels-hasan-albari-1229861.jpg);
+            height: 100vh;
+            width: 100vw;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+
+            background-repeat: no-repeat;
+            text-align: center;
+            background-size: 100vw 100vh;
+        }
+
+        .info {
+            display: inline-block;
+            position: absolute;
+            margin: 3vw;
+            padding: 1vw;
+            left: 6vw;
+            top: 32vh;
+            width: 58%;
+            border: 2px solid red;
+            border-radius: 20px;
+            background-color: rgba(85, 32, 32, 0.466);
+            color: white;
+            font-size: 1.5vw;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: left;
+            transition: 1s ease;
+
+        }
+
+        .info:hover {
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+            transition: 1s ease;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 3vw;
+            top: 3vh;
+            line-height: 0vw;
+            color: white;
+            /* border: 2px solid red; */
+            font-size: 1.2vw;
+            /* background-color: bluek; */
+        }
+
+        .left img {
+            /* height: 20vh; */
+            width: 10vw;
+            border-radius: 50%;
+            /* filter: opacity(70%);
+            filter: invert(100%); */
+        }
+
+        .mid {
+            display: block;
+            position: absolute;
+            right: 38vw;
+            top: 3vh;
+            /* background-color: goldenrod; */
+            /* border: 2px solid green; */
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .right {
+            position: absolute;
+            right: 3vw;
+            top: 5vh;
+            width: 20vw;
+            display: inline-block;
+            color: white;
+            /* border: 2px solid yellow; */
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 0vw 2vw;
+            font-size: 1.5vw;
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: goldenrod;
+            /* font-family: Georgia, 'Times New Roman', Times, serif; */
+            /* font-size: 1.4vw; */
+        }
+
+        .btn {
+            margin: 0vw 2.5vh;
+            /* height: 4vh; */
+            /* width:5vw; */
+            font-size: 1vw;
+            background-color: black;
+            border: 2px solid gray;
+            border-radius: 10px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            text-decoration: underline;
+            /* color: goldenrod; */
+            background-color: rgb(241, 205, 0);
+        }
+
+        .btn a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .info li a:hover {
+            color: goldenrod;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .info li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        li img {
+            width: 4vw;
+            transition: 1s ease;
+        }
+
+        li img:hover {
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+            transition: 1s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for log -->
+        <div class="left">
+            <img src="pra.jpg" alt="logo">
+            <p>Prathamesh Veer</p>
+        </div>
+        <!-- mid for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="https://engg.dypvp.edu.in/" target="_blank">My College</a></li>
+                <li><a href="index.html" class=>Back</a></li>
+                <!-- <li><a href="">Contact Me</a> </li> -->
+            </ul>
+        </div>
+        <!-- right boc for buttons -->
+        <div class="right">
+            <button class="btn"><a href="">Whatsapp</a> </button><button class="btn"><a
+                    href="mailto:ov01809@gmail.com">Email</a></button>
+
+        </div>
+    </header>
+    <div class="info">
+        <p>
+            Hello, everyone! My name is Prathamesh Suresh Veer and I'm from Bhor , Pune. I'm currently studying Computer
+            Engineering (2nd Year) at Dr.D.Y Patil Institute Of technology,Pimpri,Pune.
+        </p>
+        <ul>I can do programming in following Languages :
+            <li><a href="https://www.geeksforgeeks.org/c-plus-plus/" target="_blank"><img src="c++logo.png" alt=""></a>
+            </li>
+            <li><a href="https://www.geeksforgeeks.org/java/" target="_blank"><img src="javalogo.png" alt=""></a></li>
+            <li id="pythonlogo"><a href="https://www.geeksforgeeks.org/python-programming-language/"
+                    target="_blank"><img src="py2.jpeg" alt=""></a></li>
+            You can click on above icons to know more about these programming Languages.
+        </ul>
+    </div>
+</body>
+
+</html>
